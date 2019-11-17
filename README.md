@@ -2,12 +2,18 @@
 ## A1. MapReduce
 [MapReduce review ETL](https://nbviewer.jupyter.org/github/BigDataProcSystems/SD_Assignment/blob/master/Assignment_1.ipynb)
 
-Useful sources:
+Useful references:
 - [Configuring Hadoop and running MapReduce applications](https://github.com/BigDataProcSystems/Hadoop)
-- [Calculating average rating and filtering with MapReduce](https://nbviewer.jupyter.org/github/BigDataProcSystems/Hadoop/blob/2018/mapreduce_basics.ipynb)
+- [Calculating average ratings and using custom counters](https://github.com/BigDataProcSystems/Hadoop/tree/master/docs/mapreduce_average_counters.md)
+- [Sorted ratings with Partitioner, SortComparator and GroupingComparator](https://github.com/BigDataProcSystems/Hadoop/tree/master/docs/mapreduce_sorted_ratings.md)
 
 ## A2. Spark and Spark Streaming
 [Spark review ETL and Spark Streaming with Twitter API](https://nbviewer.jupyter.org/github/BigDataProcSystems/SD_Assignment/blob/master/Assignment_2.ipynb)
+
+Useful references:
+- [Introduction to Spark Streaming](https://github.com/BigDataProcSystems/Spark_Streaming/blob/master/docs/spark_streaming_intro.md)
+- [Spark Streaming and Twitter API](https://github.com/BigDataProcSystems/Spark_Streaming/blob/master/docs/spark_streaming_kafka_tweets.md)
+- [Introduction to Tweet JSON](https://developer.twitter.com/en/docs/tweets/data-dictionary/overview/intro-to-tweet-json)
 
 ## A3. Spark MLlib
 
