@@ -26,3 +26,5 @@ Useful references:
 - [MovieLens: dataset overview](http://files.grouplens.org/datasets/movielens/ml-10m-README.html)
 
 ## A4. Spark GraphFrames
+
+[Trip Analysis](https://nbviewer.jupyter.org/github/BigDataProcSystems/SD_Assignment/blob/master/Assignment_4.ipynb)
