@@ -164,6 +164,8 @@ bash run.sh
 
 ```bash
 ├── assignment
+│   ├── output
+│   │   └── output.csv -> assignment/pyscripts/output/output.csv
 │   ├── pyscripts
 │   │   ├── data
 │   │   │   └── samples_100.json
@@ -171,6 +173,7 @@ bash run.sh
 │   │   │   └── output.csv
 │   │   └── preprocessing.py
 │   └── scripts
+│       └── run.sh
 └── startup.sh
 ```
 
