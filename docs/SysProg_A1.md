@@ -165,6 +165,20 @@ bash run.sh
 ```bash
 ├── assignment
 │   ├── output
+│   ├── pyscripts
+│   │   ├── data
+│   │   │   └── samples_100.json
+│   │   ├── output
+│   │   └── preprocessing.py
+│   └── scripts
+└── startup.sh
+```
+
+А после запуска `run.sh` структура каталога должна быть, как показано ниже
+
+```bash
+├── assignment
+│   ├── output
 │   │   └── output.csv -> assignment/pyscripts/output/output.csv
 │   ├── pyscripts
 │   │   ├── data
@@ -177,11 +191,13 @@ bash run.sh
 └── startup.sh
 ```
 
+
+
 ## **Задание 4** 
 
 Удаленный запуск скриптов
 
-1. Создайте бесплатную виртуальную машину на одном из облачном провайдеров (AWS, Azure, Google Cloud, Heroku, DigitalOcean и пр.) с ОС Ubuntu
+1. Создайте бесплатную виртуальную машину на сервере одного из облачных провайдеров (AWS, Azure, Google Cloud, Heroku, DigitalOcean и пр.) с ОС Ubuntu
 2. Создайте ключ доступа по SSH (обычно это в веб-интерфейсе провайдера)
 3. Проверьте подключение к виртуальной машине посредством подключения по SSH
 4. Загрузите скрипт `startup.sh` в домашнюю директорию удаленной виртуальной машины посредством `scp`
