@@ -27,7 +27,7 @@ Useful references:
 
 ## A4. Spark GraphFrames
 
-[Trip Analysis](https://nbviewer.jupyter.org/github/BigDataProcSystems/SD_Assignment/blob/master/Assignment_4.ipynb)
+[Trip Analysis](docs/BigData_A4.md)
 
 Useful references:
 - [Introduction to Graph Analysis with Spark GraphFrames](https://nbviewer.jupyter.org/github/BigDataProcSystems/Practice/blob/master/spark/notebooks/spark_gf_airplanes.ipynb)
