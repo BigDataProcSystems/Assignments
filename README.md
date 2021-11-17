@@ -8,7 +8,7 @@ Useful references:
 - [Sorted ratings with Partitioner, SortComparator and GroupingComparator](https://github.com/BigDataProcSystems/Practice/tree/master/hadoop/docs/mapreduce_sorted_ratings.md)
 
 ## A2. Spark and Spark Streaming
-[Spark review ETL and Spark Streaming with Twitter API](https://nbviewer.jupyter.org/github/BigDataProcSystems/SD_Assignment/blob/master/Assignment_2.ipynb)
+[Spark Streaming with Twitter API](docs/BigData_A2.md)
 
 Useful references:
 - [Introduction to Spark Streaming](https://github.com/BigDataProcSystems/Practice/blob/master/spark/docs/spark_streaming_intro.md)
