@@ -14,6 +14,7 @@ Useful references:
 - [Introduction to Spark Streaming](https://github.com/BigDataProcSystems/Practice/blob/master/spark/docs/spark_streaming_intro.md)
 - [Spark Streaming and Twitter API](https://github.com/BigDataProcSystems/Practice/blob/master/spark/docs/spark_streaming_kafka_tweets.md)
 - [Introduction to Tweet JSON](https://developer.twitter.com/en/docs/tweets/data-dictionary/overview/intro-to-tweet-json)
+- [Standard streaming API request parameters](https://developer.twitter.com/en/docs/twitter-api/v1/tweets/filter-realtime/guides/basic-stream-parameters)
 
 ## A3. Spark MLlib
 
