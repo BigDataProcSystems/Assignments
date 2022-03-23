@@ -1,0 +1,48 @@
+
+# Домашнее задание 1. Spark RDD API
+
+С.Ю. Папулин (papulin_bmstu@mail.ru)
+
+### Содержание
+
+- [Задание 1](#Задание-1)
+- [Задание 2](#Задание-2)
+- [Задание 3](#Задание-3)
+
+**Замечание**: используйте только стандартные операции `RDD` `API`
+
+## **Задание 1**
+
+[Набор данных](../data/places.csv)
+
+```python
+# Наименование столбцов
+['ID', 'Name', 'global_id', 'IsNetObject', 'OperatingCompany', 'TypeObject', 'AdmArea', 'District', 'Address', 'PublicPhone', 'SeatsCount', 'SocialPrivileges', 'Longitude_WGS84', 'Latitude_WGS84', 'geoData']
+```
+
+**Замечание**: для вычисления расстояния используйте формулу гаверсинуса.
+
+1. Рассчитайте расстояние от заданной точки (lat=55.751244, lng=37.618423) до каждого заведения общепита из набора данных. Выведите первые 10. 
+2. Рассчитайте расстояние между всеми заведениями общепита из набора данных. Выведите первые 10.
+3. Выведите топ-10 наиболее близких и наиболее отдаленных заведений.
+
+## **Задание 2**
+
+Набор данных: [описание](http://jmcauley.ucsd.edu/data/amazon/links.html), [отзывы](http://snap.stanford.edu/data/amazon/productGraph/categoryFiles/reviews_Electronics_5.json.gz), [товары](http://snap.stanford.edu/data/amazon/productGraph/categoryFiles/meta_Electronics.json.gz)
+
+1. Рассчитайте средний рейтинг товаров из набора данных. 
+2. Сопоставьте полученным данным из предыдущего пункта наименованием товаров.
+3. Сформируйте RDD товаров с рейтингом меньшим 3. Выведите топ-10 товаров с наименьшим рейтингом.
+4. Сохраните результат в постоянное хранилище.
+
+Ниже ссылка (в соответствии с политикой использования набора данных): 
+- Ups and downs: Modeling the visual evolution of fashion trends with one-class collaborative filtering
+R. He, J. McAuley
+WWW, 2016
+
+## **Задание 3**
+
+[Набор данных](http://files.grouplens.org/datasets/movielens/ml-latest-small.zip)
+
+1. Вычислите косинусное сходство между рейтингами фильмов.
+2. Выведите топ-10 наиболее близких фильмов по косинусному сходству для `movieId` равного `589`.
