@@ -1,4 +1,4 @@
-# ЗАДАНИЕ 4. Анализ поездок посредством Spark DataFrame API
+# ДОМАШНЕЕ ЗАДАНИЕ 4. Анализ поездок посредством Spark DataFrame API
 
 Папулин С.Ю. (papulin_bmstu@mail.ru)
 

@@ -1,5 +1,4 @@
-
-# Домашнее задание 1. Spark RDD API
+# ДОМАШНЕЕ ЗАДАНИЕ 1. Spark RDD API
 
 С.Ю. Папулин (papulin_bmstu@mail.ru)
 
